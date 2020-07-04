@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	
+	<!-- Boothstraph CSS Link -->
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+	<!-- Select2 CSS Link -->
+	<link rel="stylesheet" href=".../css/select2.min.css"/>
+	<!-- Fontawesome CSS Link -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+	<!-- Style CSS link -->
+	<link rel="stylesheet" type="text/css" href="../css/university-list.css">
+	<title>Not Selected</title>
+</head>
+<body>
+
+	<!-- Header Section Start Here -->
+	<section id="header-section">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-12 col-sm-12 col-md-6 display-md-none">
+					<p class="header-contact">
+						<span class="d-block"><i class="fas fa-phone"></i>01302424497</span>
+						<i class="far fa-envelope"></i>mehedi.wub01@gmail.com
+					</p>
+				</div>
+                <div class="col-12 col-sm-12 col-md-6 search-bar">
+                    <form class="card card-sm">
+                        <div class="card-body row no-gutters align-items-center">
+                            <div class="col">
+                                <input class="form-control form-control-lg form-control-borderless" type="search" placeholder="Search">
+                            </div>
+
+                            <div class="col-auto">
+                                <button class="btn btn-lg btn-color btn-hover-color" type="submit">Search</button>
+                            </div>
+                         </div>
+                    </form>
+                </div>
+			</div>
+		</div>
+	</section>
+<!-- Header Section End Here -->
+
+<!-- Nav section start here -->
+	<section id="navbar" class="sticky-top">
+		<div class="container">
+			<nav class="navbar nav-color navbar-expand-lg">
+				<a href="" class="navbar-brand">
+					<img class="nav-logo" src="../img/pic-1.jpg" alt="nav-logo image">
+				</a>
+				<button type="button" class="navbar-toggler" data-target="#toggle-nav" data-toggle="collapse" >
+					<span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+				</button>
+				<div class="collapse navbar-collapse" id="toggle-nav">	
+					<ul class="navbar-nav mr-auto">
+						<li><a href="../index.html" class="nav-link">Home</a></li>
+						<li><a href="about.html" class="nav-link">About Us</a></li>
+						<li><a href="contract.html" class="nav-link">Contact</a></li>
+						<li><a href="university-list.html" class="nav-link">University List</a></li>
+						<li><a href="ieb-membership-list.html" class="nav-link">IEB Membership List</a></li>
+						<li><a href="ranking.html" class="nav-link">Ranking</a></li>
+						<li><a href="e-book.html" class="nav-link">E-Book</a></li>
+						
+						<!-- <li class="dropdown">
+							<a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">Service
+							</a>
+							<ul class="dropdown-menu dropdown-color">
+								<li><a href="" class="nav-link">Dropdown-1</a></li>
+								<li><a href="" class="nav-link">Dropdown-2</a></li>
+								<li><a href="" class="nav-link">Dropdown-3</a></li>
+								<li><a href="" class="nav-link">Dropdown-4</a></li>
+							</ul>
+						</li> -->
+						
+					</ul>
+					<ul class="navbar-nav">
+						<!-- <li>
+							<div class="searchbar">
+								<input class="search_input" type="text" name="" placeholder="Search...">
+								<a href="#" class="search_icon"><i class="fas fa-search"></i></a>
+							</div>
+						</li> -->
+						<li><a href="" class="nav-link">Login</a></li>
+						<li><a href="" class="nav-link">Sign Up</a>
+					</ul>
+				</div>		
+			</nav>
+		</div>
+	</section>
+<!-- Nav section end here -->
+
+<!-- Search Option Start Here -->
+	<section class="search-sec">
+		<div class="container">
+			<form action="" method="">
+				<div class="row">
+					<div class="col-lg-4 col-md-4 col-sm-12 p-0">
+						<input type="text" class="form-control search-slt" placeholder="Search a Program or University">
+					</div>
+					<div class="col-lg-2 col-md-2 col-sm-12 p-0">
+						<input type="text" class="form-control search-slt" placeholder="Your Budget">
+					</div>
+					<div class="col-lg-2 col-md-2 col-sm-12 p-0">
+						<select class="form-control search-slt" id="exampleFormControlSelect1">
+							<option>Division (Optional)</option>
+							<option>Dhaka</option>
+							<option>Khulna</option>
+							<option>Chittagong</option>
+							<option>Mymensingh</option>
+							<option>Rajshahi</option>
+							<option>Rangpur</option>
+							<option>Sylhet</option>
+							<option>Barisal</option>	
+						</select>
+					</div>
+					<div class="col-lg-2 col-md-2 col-sm-12 p-0">
+						<select class="form-control search-slt" id="exampleFormControlSelect1">
+							<option>Rinking (Optional)</option>
+							<option>View ranking wise</option>
+						</select>
+					</div>
+					<div class="col-lg-2 col-md-2 col-sm-12 p-0">
+						<button type="button" class="btn btn-danger wrn-btn">Search</button>
+					</div>
+	`			</div>
+			</form>
+		</div>
+	</section>
+<!-- Search Option End Here -->
+
+<!-- List part Start Here -->
+<div class="container">
+	<table class="table">
+	  <thead class="thead-dark">
+	    <tr>
+	      <th scope="col">SL No.</th>
+	      <th scope="col">University Name</th>
+	      <th scope="col">Location</th>
+	    </tr>
+	  </thead>
+	  <tbody>
+	    <tr>
+	        <td>1</td>
+	        <td><a href="https://selectuni.com/public-uni/1/University-of-Dhaka"><b>University of Dhaka</b></a></td>
+	        <td>Shahbag,Dhaka</td>
+				
+	        </tr>
+
+	        <tr>
+	            <td>2</td>
+	            <td><a href="https://selectuni.com/public-uni/2/Jahangirnagar-University"><b>Jahangirnagar University</b></a></td>
+	            <td>Saver,Dhaka</td>
+	        </tr>
+
+	        <tr>
+	            <td>3</td>
+	            <td><a href="https://selectuni.com/public-uni/3/Jagannath-University"><b>Jagannath University</b></a></td>
+	            <td>9-10 Chittaranjan Ave, Dhaka 1100</td>	
+	        </tr>
+
+	        <tr>
+	            <td>4</td>
+	            <td><a href="https://selectuni.com/public-uni/4/University-of-Rajshahi"><b>University of Rajshahi</b></a></td>
+	            <td>Rajshahi</td>
+	        </tr>
+
+	        <tr>
+	            <td>5</td>
+	            <td><a href="https://selectuni.com/public-uni/5/University-of-Chittagong"><b>University of Chittagong</b></a></td>
+	            <td>Chittagong University Road,suburban area of Hathazari, Chittagong</td>
+	        </tr>
+
+	        <tr>
+	            <td>6</td>
+	            <td><a href="https://selectuni.com/public-uni/6/Shahjalal-University-of-Science-&amp;-Technology"><b>Shahjalal University of Science &amp; Technology</b></a></td>
+	            <td>University Ave, Sylhet 3114</td>
+	        </tr>
+
+	        <tr>
+	            <td>7</td>
+	            <td><a href="https://selectuni.com/public-uni/7/Khulna-University"><b>Khulna University</b></a></td>
+	            <td>Khulna</td>
+	        </tr>
+
+	        <tr>
+	            <td>8</td>
+	            <td><a href="https://selectuni.com/public-uni/8/Mawlana-Bhashani-Science-&amp;-Technology-University"><b>Mawlana Bhashani Science &amp; Technology University</b></a></td>
+	            <td>Santosh, 1902, Tangail</td>
+	        </tr>
+
+	        <tr>
+	            <td>9</td>
+	            <td><a href="https://selectuni.com/public-uni/9/Bangabandhu-Sheikh-Mujibur-Rahman-Science-&amp;-Technology-University"><b>Bangabandhu Sheikh Mujibur Rahman Science &amp; Technology University</b></a></td>
+	            <td>Gopalgonj-8100</td>
+	        </tr>
+
+	        <tr>
+	            <td>10</td>
+	            <td><a href="https://selectuni.com/public-uni/10/Jessore-University-of-Science-&amp;-Technology"><b>Jessore University of Science &amp; Technology</b></a></td>
+	            <td>1 Churamonkathi - Chaugachha Road, 7408</td>
+	        </tr>
+
+	        <tr>
+	            <td>11</td>
+	            <td><a href="https://selectuni.com/public-uni/11/Hajee-Mohammad-Danesh-Science-&amp;-Technology-University"><b>Hajee Mohammad Danesh Science &amp; Technology University</b></a></td>
+	            <td>HSTU, Basherhat N508, 5200</td>
+	        </tr>
+
+	        <tr>
+	            <td>12</td>
+	            <td><a href="https://selectuni.com/public-uni/12/Pabna-University-of-Science-and-Technology"><b>Pabna University of Science and Technology</b></a></td>
+	            <td>Rajapur, Dhaka - Pabna Highway, Pabna 6600</td>
+	        </tr>
+
+	        <tr>
+	            <td>13</td>
+	            <td><a href="https://selectuni.com/public-uni/13/Patuakhali-Science-And-Technology-University"><b>Patuakhali Science And Technology University</b></a></td>
+	            <td>Dhaka - Patuakhali Highway, 8602</td>
+	        </tr>
+
+	        <tr>
+	            <td>14</td>
+	            <td><a href="https://selectuni.com/public-uni/14/Noakhali-Science-&amp;-Technology-University"><b>Noakhali Science &amp; Technology University</b></a></td>
+	            <td>Sonapur, University Rd, 3814</td>
+	        </tr>
+
+	        <tr>
+	            <td>15</td>
+	            <td><a href="https://selectuni.com/public-uni/15/Comilla-University"><b>Comilla University</b></a></td>
+	            <td>Comilla University Road, Shalmanpur 3506</td>
+	        </tr>
+
+	        <tr>
+	            <td>16</td>
+	            <td><a href="https://selectuni.com/public-uni/16/Islamic-University"><b>Islamic University</b></a></td>
+	            <td>Kustia,jhenaidah</td>
+	        </tr>
+
+	        <tr>
+	            <td>17</td>
+	            <td><a href="https://selectuni.com/public-uni/17/Jatiya-Kabi-Kazi-Nazrul-Islam-University"><b>Jatiya Kabi Kazi Nazrul Islam University</b></a></td>
+	            <td>Nama para Battala, Trishal Upazila</td>
+	        </tr>
+
+	        <tr>
+	            <td>18</td>
+	            <td><a href="https://selectuni.com/public-uni/18/Bangladesh-University-of-Professionals"><b>Bangladesh University of Professionals</b></a></td>
+	            <td>Mirpur Cantonment, Road No 2 Section# 12, 1216</td>
+	        </tr>
+
+	        <tr>
+	            <td>19</td>
+	            <td><a href="https://selectuni.com/public-uni/19/Begum-Rokeya-University"><b>Begum Rokeya University</b></a></td>
+	            <td>Modern Mor Road, Rangpur 5400</td>
+	        </tr>
+
+	        <tr>
+	            <td>20</td>
+	            <td><a href="https://selectuni.com/public-uni/20/Barisal-University"><b>Barisal University</b></a></td>
+	            <td>Kornokathi, Patuakhali Highway, Barisal 8200</td>
+	        </tr>
+
+	        <tr>
+	            <td>21</td>
+	            <td><a href="https://selectuni.com/public-uni/21/Bangladesh-Agricultural-University"><b>Bangladesh Agricultural University</b></a></td>
+	            <td>BAU Main Road, Mymensingh 2202</td>
+	        </tr>
+
+	        <tr>
+	            <td>22</td>
+	            <td><a href="https://selectuni.com/public-uni/22/Sher-e-Bangla-Agricultural-University"><b>Sher-e-Bangla Agricultural University</b></a></td>
+	            <td>Agargaon, Dhaka 1207</td>
+	        </tr>
+
+	        <tr>
+	            <td>23</td>
+	            <td><a href="https://selectuni.com/public-uni/23/Sylhet-Agricultural-University"><b>Sylhet Agricultural University</b></a></td>
+	            <td>Alurtol Road, Sylhet 3100</td>
+	        </tr>
+
+	        <tr>
+	            <td>24</td>
+	            <td><a href="https://selectuni.com/public-uni/24/Bangabandhu-Sheikh-Mujibur-Rahman-Agricultural-University"><b>Bangabandhu Sheikh Mujibur Rahman Agricultural University</b></a></td>
+	            <td>hmultali - Salna Rd, Gazipur 1706</td>
+	        </tr>
+
+	       <tr>
+	            <td>25</td>
+	            <td><a href="https://selectuni.com/public-uni/25/Sylhet-Engineering-College"><b>Sylhet Engineering College</b></a></td>
+	            <td>Alurtol Road, Tilagarh, Sylhet-3100</td>
+	        </tr>
+
+	        <tr>
+	            <td>26</td>
+	            <td><a href="https://selectuni.com/public-uni/26/Faridpur-Engineering-College"><b>Faridpur Engineering College</b></a></td>
+	            <td>Dr Kaji Motaher Hossain Rd, Faridpur 7800</td>
+	        </tr>
+
+	        <tr>
+	            <td>27</td>
+	            <td><a href="https://selectuni.com/public-uni/27/Mymensing-Engineering-College"><b>Mymensing Engineering College</b></a></td>
+	            <td>Mymensing</td>
+	        </tr>
+
+	        <tr>
+	            <td>28</td>
+	            <td><a href="https://selectuni.com/public-uni/28/Barisal-Engineering-College"><b>Barisal Engineering College</b></a></td>
+	            <td>Barisal-Bhola Highway</td>
+	        </tr>
+
+	        <tr>
+	            <td>29</td>
+	            <td><a href="https://selectuni.com/public-uni/29/Bangladesh-University-of-Engineering-&amp;-Technology"><b>Bangladesh University of Engineering &amp; Technology</b></a></td>
+	            <td>Shahbag,Dhaka</td>
+	        </tr>
+
+	        <tr>
+	            <td>30</td>
+	            <td><a href="https://selectuni.com/public-uni/30/Chittagong-University-of-Engineering-&amp;-Technology"><b>Chittagong University of Engineering &amp; Technology</b></a></td>
+	            <td>Kaptai Highway, Raozan</td>
+	        </tr>
+
+	        <tr>
+	            <td>31</td>
+	            <td><a href="https://selectuni.com/public-uni/31/Khulna-University-of-Engineering-and-Technology"><b>Khulna University of Engineering and Technology</b></a></td>
+	            <td>Khulna 9203</td>
+	        </tr>
+
+	        <tr>
+	            <td>32</td>
+	            <td><a href="https://selectuni.com/public-uni/32/Rajshahi-University-of-Engineering-&amp;-Technology"><b>Rajshahi University of Engineering &amp; Technology</b></a></td>
+	            <td>Rajshahi</td>
+	        </tr>
+
+	        <tr>
+	            <td>33</td>
+	            <td><a href="https://selectuni.com/public-uni/33/Bangladesh-University-of-Textiles"><b>Bangladesh University of Textiles</b></a></td>
+	            <td>92, Shaheed Tajuddin Ahmed Avenue, Tejgaon Industrial Area, Dhaka 1208</td>
+	        </tr>
+	  </tbody>
+	</table>
+</div>
+
+<!-- List Part End Here -->
+
+
+<!-- Footer Section Start Here -->
+	<footer id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-sm-12 col-md-4">
+					<h5 class="text-white">Downloads App</h5>
+					<ul class="list-unstyled list-inline">
+						<li class="list-inline-item">
+							<a href="#"><i class="fab fa-apple-pay"></i></a>
+						</li>
+						<li class="list-inline-item">
+							<a href="#"><i class="fab fa-google-play"></i></a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-12 col-sm-12 col-md-4">
+					<h3 class="text-white">Other Link</h3>
+					<div class="row">
+						<div  class="col-12 col-sm-12 col-md-6">
+							<ul class="list-unstyled">
+								<li><a href="#" target="_blank">Home</a></li>
+								<li><a href="#" target="_blank">Contact</a></li>
+								<li><a href="#" target="_blank">About</a></li>
+							</ul>
+						</div>
+						<div  class="col-12 col-sm-12 col-md-6">
+							<ul class="list-unstyled">
+								<li><a href="#" target="_blank">University List</a></li>
+								<li><a href="#" target="_blank">Ranking</a></li>
+								<li><a href="#" target="_blank">IEB Membership List</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-sm-12 col-md-4">
+					<h5 class="text-white">Live Events</h5>
+					<form>
+						<div class="form-row form-padding">
+						  <div class="col-12 col-sm-12 col-md-12">
+							<input type="text" class="form-control" placeholder="First name">
+						  </div>
+						</div>
+						<div class="form-row form-padding">
+							<div class="col-12 col-sm-12 col-md-12">
+							  <input type="email" class="form-control" placeholder="Email Address">
+							</div>
+						</div>
+						<div class="form-row form-padding">
+							<div class="col-12 col-sm-12 col-md-12">
+							  <input type="phone" class="form-control" placeholder="Phone Number">
+							</div>
+						</div>
+						<div class="form-row form-padding">
+							<div class="col-12 col-sm-12 col-md-12">
+							  <textarea class="w-100" name="" rows="5" placeholder="Message"></textarea>
+							</div>
+						</div> 
+						<div class="row">
+							<div class="col-lg-12 col-md-12 col-sm-12 p-0">
+								<button type="submit" class="btn btn-danger">Submit</button>
+							</div>
+						</div> 
+					  </form>
+				</div>
+			</div>
+			<hr>
+			<div class="footer-icon">
+				<ul class="list-unstyled list-inline mb-0 text-center">
+					<li class="list-inline-item">
+						<a href="#" target="_blank">
+							<i class="fab fa-facebook-square"></i>
+						</a>
+					</li>
+					<li class="list-inline-item">
+						<a href="#" target="_blank">
+							<i class="fab fa-twitter-square"></i>
+						</a>
+					</li>
+					<li class="list-inline-item">
+						<a href="#" target="_blank">
+							<i class="fab fa-linkedin"></i>
+						</a>
+					</li>
+					<li class="list-inline-item">
+						<a href="#" target="_blank">
+							<i class="fab fa-google-plus"></i>
+						</a>
+					</li>
+					<li class="list-inline-item">
+						<a href="#" target="_blank">
+							<i class="fab fa-youtube"></i>
+						</a>
+					</li>
+				</ul>					
+			</div>
+			<hr>
+			<div class="col-12 text-center text-white">
+				<p>© 2020 Code Breakers ®. All Rights Reserved.</p>
+			</div>
+		</div>
+	</footer>
+<!-- Footer Section End Here -->
+
+
+
+	<script src="../js/jquery-3.4.1.js"></script>
+	<script src="../js/popper.min.js"></script>
+	<script src="../js/bootstrap.js"></script>
+	<script src="../js/select2.min.js"></script>
+	<script src="../js/custom.js"></script>
+</body>
+</html>
